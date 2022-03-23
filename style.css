@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Opensans;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+*{
+    margin: 0;
+    pad: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Opensans;
+    box-sizing: border-box; /*what's i don't know*/
+}
+body{
+     background-color: #fefeff;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #fefeff;
+}
+nav{
+    /* display: flex; */
+    margin: 0 64.5px;
+
+}
+.logo{
+    height: 19px;
+    margin-top: 10px;/*with him centralize logo(Belet)*/ 
+}
+.nav_ul_list{
+    float: right;
+    margin: 6px 32.5px 0 0;
+
+}
+.nav_li{
+    display: inline-block;
+    padding: 0 4px;
+}
+.nav_link{
+    font-size: 10px;
+    color: #1e2022;
+}
+.nav_link:hover{
+    color: #377dff;
+}
+/* this one icon you must change */
+.profile{
+    height: 14px;
+    width: 14px;
+    background-color: black;
+    border-radius: 50%;
+}
+/* Section */
+.main-main{
+    width: 100%;
+    background-color: rgba(243,245,255,0.3);
+}
+.main{
+    margin: 0 64px; 
+}
+.text--main{
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 0 ; 
+}
+.text-grey{
+    text-align: center;
+    color: gray;
+}
+
+/* start cards in here we have 3 cards */
+.cards{
+    display: flex;
+    padding: 50px 0; 
+    /* padding up to down */
+    /* for padding main-text */
+}
+/* end cards */
+/* start card0 next step we can change smth and use this one */
+.card0 , .card1{
+    width: 49%;
+    height: 285px;
+    border-radius: 2%;
+    opacity: 0.95;
+
+}
+.card0{
+    background-color: rgba(250,231,241,0.8);
+    margin: 0 20px;
+}
+/* end card0 */
+/* start img in card */
+.img_masha{
+    width: 60%;
+    margin: 17px 0 0 60px ;
+    /* for centarlize foto */
+}
+/* end img */
+/* start title card */
+.card-name{
+    color: black;
+    padding: 0 18px; 
+}
+/* it's title for our card // end title card */
+/* start card-link */
+.card-link , .card-link1{
+    font-size: 10px;
+    padding: 7px 9px;
+    color: #ff3282;
+}
+/* card1 */
+.card1{
+    background-color: rgba(218,249,247,0.7);
+}
+/*  */
+.img_human{
+    width: 80%;
+    margin: 18px 30px;
+}
+.card-link1{
+    color: #5214ff;
+}
+section{
+    margin-top: -113px;
+    background-color: rgba(243,245,255,0.3);
+    width: 100%;
+}
+/*  */
+.card002{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -80px;
+}
+.card02{
+    width: 40%;
+    height: 250px;
+    border-radius: 2%;
+    background-color: rgba(230,231,235,0.5);
+}
+.img_tv{
+    margin: 20px 30px;
+    /* padding: 30px 20px; */
+    width: 80%;
+}
